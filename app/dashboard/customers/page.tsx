@@ -1,4 +1,7 @@
+import Loading from '@/app/dashboard/loading';
 export default function customers()
 {
-    return <p>Customer page</p>;
+    return (
+        <Loading />
+    )
 }
